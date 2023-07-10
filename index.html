@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://kit.fontawesome.com/d9bbcc2684.js" crossorigin="anonymous"></script>-->
+    <script src="https://kit.fontawesome.com/5a0ca8ba8d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>hb-dantel</title>
+</head>
+<body>
+    <header id="header">
+    <a href="">
+        <img src="image22.png" class="p-img" id="myImage">
+        
+    </a>
+    <nav>    
+    <a href="" class="home" id="text1">MAISON</a>
+    <a href="" class="about" id="text2">À PROPOSE</a>
+    <a href="" class="service" id="text3">SERVICE</a>
+    <a href="" class="contact" id="text4">CONTACT</a>
+    
+</nav>
+</a>
+<div id="burger" onclick="enable()">
+    <span id="text5"></span>
+    <span id="text6"></span>
+    <span id="text7"></span>
+    <span id="text8"></span>
+</div>
+
+<nav class="nav" id="nav">
+
+    <li>
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Item 2</a>
+    </li>
+    <li>
+        <a href="#">Item 3 </a>
+    </li>
+    <li>
+        <a href="#">Item 4</a>
+    </li>
+
+
+</nav>
+    </header>
+
+    <div class="light">
+        <input type="checkbox" id="toggle" onchange="adjustBrightnessAndChangeTextColor()" >
+<label for="toggle" class="toggle" id="hi" onchange="adjustBrightnessTextColor()">
+    <i class="bx bxs-sun"></i>
+    <i class="bx bxs-moon"></i>
+    <span class="ball"></span>
+
+</label>
+    </div>
+    
+    <div><img src="background.jpg" class="img-2">
+    <center><img src="image22.png" class="img-1" id="myImage2"></center>
+    </div>
+    <div class="hollywood-div">
+        <img src="hollywood-smile.jpg" alt="" class="hollywood-img">
+        <span class="ex-smile" id="text10"><span id="text9">Hollywood smile</span><br>Le service Hollywood Smile dans notre clinique vous donne un sourire éclatant et incroyable. En utilisant nos technologies de pointe et nos traitements innovants, nous obtiendrons pour vous des dents blanches et belles. Notre équipe dédiée évaluera votre état et concevra un plan de traitement adapté à vos besoins individuels. Prenez rendez-vous dès aujourd'hui et préparez-vous à restaurer votre confiance en votre sourire.</span>
+    </div>
+    <div id="separer"></div>
+    <div class="orthodontics-div">
+        <img src="orthodontics.jpg" alt="" class="orthodontics-img">
+        <span class="ex-or" id="text11"><span id="text12">Orthodontics</span><br>Notre clinique entend offrir un service orthodontique hors pair, pour vous offrir un sourire droit et équilibré. À l'aide de techniques modernes et d'équipements de pointe, nos équipes spécialisées corrigeront les dents mal alignées et amélioreront la fonction buccale. En seulement huit mois, vous bénéficierez d'un nouveau sourire et d'une confiance accrue. Prenez rendez-vous dès maintenant pour bénéficier du service d'orthodontie offert par notre clinique.</span>
+    </div>
+    <div id="separer2"></div>
+    
+   <script src="script.js"></script>
+</body>
+</html>
